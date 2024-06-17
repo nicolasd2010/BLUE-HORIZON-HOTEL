@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-}
 
 header {
     color: rgb(255, 255, 255);
@@ -38,7 +37,6 @@ a {
     display: inline-block;
 }
 
-
 .secciones img {
     height: 300px;
     width: 400px;
@@ -71,4 +69,33 @@ a {
     object-fit: cover;
     border-radius: 20px;
     
+}
+.block {
+    display: flex;
+    background-color: aliceblue;
+    border-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: flex-start ;
+    
+
+
+}
+.dentro {
+    display: flex;
+    margin: 10px;
+    
+  
+
+}
+.dentro img {
+    width: 200px;
+    
+}
+.todoo {
+    padding: 10px;
+    
+}
+.text  {
+;
 }
