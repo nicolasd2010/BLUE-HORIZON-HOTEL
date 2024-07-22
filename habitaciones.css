@@ -1,0 +1,29 @@
+.dentro {
+    display: flex;
+    margin: 10px;
+    
+  
+
+}
+.dentro img {
+    width: 200px;
+    
+}
+.todoo {
+    padding: 10px;
+    
+}
+.dds {
+    display: flex;
+    justify-content: center;
+}
+.dds h1 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dds img {
+    height: 22px;
+    display: flex;
+    margin-top: 10px;
+   
+}
