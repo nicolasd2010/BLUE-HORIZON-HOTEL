@@ -1,3 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    background-color: #2c386e5b;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background-color: #1E8CE5;
+}
+
+.eventos a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+}
+
+
+.barra li a {
+    color: aliceblue;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.barra ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+}
+
+.barra img {
+    width: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
 .dentro {
     display: flex;
     margin: 10px;
@@ -40,4 +90,15 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+}
+.block {
+    display: flex;
+    background-color: aliceblue;
+    border-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: flex-start ;
+    
+
+
 }

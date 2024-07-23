@@ -5,6 +5,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.aaaa h1 {
+   color: aliceblue;
+}
 .hor {
     display: flex ;
     justify-content: center;
@@ -16,19 +19,36 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cuerpo{ 
-    background-color: rgb(250, 224, 191);
-    margin-left:  15%;
-    margin-right: 15%;
+    background-color: rgb(90, 151, 221);
+    margin-left:  10%;
+    margin-right: 10%;
     display: flex;
     align-items: center;
     
 }
 .cuerpo p { 
-    display: flex;
     font-size: 23px;
 }
 
 .ads{ 
-    
 padding: 10px;
+margin-top: -10px;
+}
+.adsss{ 
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+
+
+
+
+.linea { 
+    background-color: rgb(0, 0, 0);
+    padding: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+img {
+    width: 500px;
 }

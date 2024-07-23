@@ -14,45 +14,101 @@
             Blue Horizon Hotel
         </h1>
         <div class="barra">
-             <ul>
-                 <li><img src="img/hogar.png"alt="a"><a href="index.html">INICIO</a></li>
-                 <li><img src="img/edificio.png" alt="b"> <a href="lujo.html">HABITACIONES</a></li> 
-                 <li><img src="img/dia-del-calendario.png" alt="c"><a href="#">EVENTOS Y SALONES</a></li>
-                 <li><img src="img/vidrio-salud.png" alt="d"><a href="#">RESTAURANT Y BAR</a></li>
-                  <li><img src="img/insignia-porcentaje.png" alt="e"><a href="#">PROMOCIONES</a></li>
-             </ul>
-    </div>
-</header>
+            <ul>
+                <li><img src="img/hogar.png" alt="a"><a href="index.html">INICIO</a></li>
+                <li><img src="img/edificio.png" alt="b"> <a href="HABITACIONES.html">HABITACIONES</a></li> 
+                <li><img src="img/dia-del-calendario.png" alt="c"><a href="eventos.html">EVENTOS Y SALONES</a></li>
+                <li><img src="img/vidrio-salud.png" alt="d"><a href="restaurant.html">RESTAURANT Y BAR</a></li>
+            </ul>
+        </div>
+    </header>
 
     <div class="videoContainer">
         <video class="video"
-            src="img/Y2meta.app-El destino de tus sueños te espera en Mojácar Playa Hotel_ descubre el significado de la felicidad-(1080p).mp4"video/mp4   autoplay  </video>
+            src="img/Y2meta.app-El destino de tus sueños te espera en Mojácar Playa Hotel_ descubre el significado de la felicidad-(1080p).mp4"
+            video/mp4 autoplay loop> </video>
+        <div class="backdrop"></div>
     </div>
 
-    <div class="secciones">
-        <div class="seccion_1">
-            <ul>
-                <li>
-                    <h1>Habitaciones Lujosa</h1>
-                    <img src="img/lujosaaaa.jpg" alt="">
-                </li>
-                <div class="seccion_2">
-                    <li>
-                        <h1>Habitaciones Semi-Lujosa</h1>
-                        <img src="img/lujo.avif" alt="">
-                    </li>
-                </div>
-                <li>
-                    <h1>Habitaciones Baratas</h1>
-                    <div class="seccion_3">
-                        <img src="img/c5ce39cb.avif" alt="">
-                </li>
-            </ul>
+    <ul class="secciones">
+        <a href="lujo.html">
+        <li class="seccion_1">
+            <h1>Habitaciones Lujosa</h1>
+            <img src="img/lujosaaaa.jpg" alt="">
+            <h4> Las habitaciones de lujo en hoteles ofrecen una experiencia excepcional para los huéspedes.
+                Suelen tener áreas separadas para dormir, descansar y trabajar, además de servicios premium como
+                minibar, televisión de pantalla plana y aire acondicionado. Las suites presidenciales son las
+                más lujosas, con comodidades como ropa de cama de alta calidad y tecnología avanzada. En
+                resumen, son ideales para quienes buscan una estancia exclusiva y relajante.</h4>
+        </li>
+    </a>
+        <a href="semi.html">
+        <li class="seccion_2">
+           
+            <h1>Habitaciones Semi-Lujosa</h1>
+            <img src="img/lujo.avif" alt="">
+         
+            <h4>
+                ubicada en un hotel céntrico o con vistas panorámicas, con mobiliario de diseño elegante y funcional,
+                buena iluminación a través de ventanas grandes o terraza, elementos de confort como una cama king-size y
+                ropa de cama de alta calidad, y servicios adicionales como minibar, internet de alta velocidad o
+                servicio de concierge
+            </h4>
+        </li>
+          </a>
+          <a href="barata.html">
+        <li class="seccion_3">
+            <h1>Habitaciones Baratas</h1>
+        <img src="img/c5ce39cb.avif" alt="">
+            <h4>
+                ubicada en un hotel céntrico o con vistas panorámicas, con mobiliario de diseño elegante y funcional,
+                buena iluminación a través de ventanas grandes o terraza, elementos de confort como una cama king-size y
+                ropa de cama de alta calidad, y servicios adicionales como minibar, internet de alta velocidad o
+                servicio de concierge
+            </h4>
+        </li>
+    </a>
+    </ul>
+
+    <div class="eventos">
+        <h1><a href="eventos.html">Eventos</a></h1>
+        <div class="container-evento container-izq">
+            <a href="#"><video id="video" loop src="img/video_boda.mp4" alt=""> </video></a>
+            <p class="sub">aca debe ir una breve descripcion del evento que se hizo</p>
         </div>
 
+        <div class="container-evento container-der">
+            <a href="#"><video src="img/bodas.webp" alt=""></a>
+        </div>
+
+        <div class="container-evento container-izq">
+            <a href="#"><video src="img/bodas.webp" alt=""></a>
+        </div>
+
+        <div class="container-evento container-der">
+            <a href="#"><img src="img/   .webp" alt=""></a>
+        </div>
+    </div>
+
+    <footer>
+        <h3 class="">Información de contacto</h3>
+        <ul>
+            <li><a href="#">Teléfono: +123 456 789</a></li>
+            <li><a href="#">Correo electrónico: info@miempresa.com</a></li>
+        </ul>
+    </footer>
 
 
+    <script>
+        document.getElementById('video').addEventListener('mouseover', function() {
+            this.play();
+          });
+          
+          document.getElementById('video').addEventListener('mouseout', function() {
+            this.pause();
+          });
+          
+    </script>
 </body>
-
 
 </html>
