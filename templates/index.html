@@ -5,36 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Horizon Hotel</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 
 <body>
     <header>
-        <h1>
+        <h1><a href="{{url_for('index')}}">
             Blue Horizon Hotel
-        </h1>
+       </a> </h1>
         <div class="barra">
             <ul>
-                <li><img src="img/hogar.png" alt="a"><a href="index.html">INICIO</a></li>
-                <li><img src="img/edificio.png" alt="b"> <a href="HABITACIONES.html">HABITACIONES</a></li> 
-                <li><img src="img/dia-del-calendario.png" alt="c"><a href="eventos.html">EVENTOS Y SALONES</a></li>
-                <li><img src="img/vidrio-salud.png" alt="d"><a href="restaurant.html">RESTAURANT Y BAR</a></li>
+                <li><img src="/static/img/hogar.png" alt="a"><a href="{{url_for('index')}}">INICIO</a></li>
+                <li><img src="/static/img/edificio.png" alt="b"> <a href="{{url_for('lujo')}}">HABITACIONES</a></li> 
+                <li><img src="/static/img/dia-del-calendario.png" alt="c"><a href="{{url_for('eventos')}}">EVENTOS Y SALONES</a></li>
+                <li><img src="/static/img/vidrio-salud.png" alt="d"><a href="{{url_for('restaurant')}}">RESTAURANT Y BAR</a></li>
             </ul>
         </div>
     </header>
 
     <div class="videoContainer">
         <video class="video"
-            src="img/Y2meta.app-El destino de tus sueños te espera en Mojácar Playa Hotel_ descubre el significado de la felicidad-(1080p).mp4"
+            src="/static/img/Y2meta.app-El destino de tus sueños te espera en Mojácar Playa Hotel_ descubre el significado de la felicidad-(1080p).mp4"
             video/mp4 autoplay loop> </video>
         <div class="backdrop"></div>
     </div>
 
     <ul class="secciones">
-        <a href="lujo.html">
+        <a href="{{url_for('lujo')}}">
         <li class="seccion_1">
             <h1>Habitaciones Lujosa</h1>
-            <img src="img/lujosaaaa.jpg" alt="">
+            <img src="/static/img/lujosaaaa.jpg" alt="">
             <h4> Las habitaciones de lujo en hoteles ofrecen una experiencia excepcional para los huéspedes.
                 Suelen tener áreas separadas para dormir, descansar y trabajar, además de servicios premium como
                 minibar, televisión de pantalla plana y aire acondicionado. Las suites presidenciales son las
@@ -42,11 +42,11 @@
                 resumen, son ideales para quienes buscan una estancia exclusiva y relajante.</h4>
         </li>
     </a>
-        <a href="semi.html">
+        <a href="{{url_for('semi')}}">
         <li class="seccion_2">
            
             <h1>Habitaciones Semi-Lujosa</h1>
-            <img src="img/lujo.avif" alt="">
+            <img src="/static/img/lujo.avif" alt="">
          
             <h4>
                 ubicada en un hotel céntrico o con vistas panorámicas, con mobiliario de diseño elegante y funcional,
@@ -56,10 +56,10 @@
             </h4>
         </li>
           </a>
-          <a href="barata.html">
+          <a href="{{url_for('barata')}}">
         <li class="seccion_3">
             <h1>Habitaciones Baratas</h1>
-        <img src="img/c5ce39cb.avif" alt="">
+        <img src="/static/img/c5ce39cb.avif" alt="">
             <h4>
                 ubicada en un hotel céntrico o con vistas panorámicas, con mobiliario de diseño elegante y funcional,
                 buena iluminación a través de ventanas grandes o terraza, elementos de confort como una cama king-size y
@@ -70,23 +70,16 @@
     </a>
     </ul>
 
-    <div class="eventos">
-        <h1><a href="eventos.html">Eventos</a></h1>
-        <div class="container-evento container-izq">
-            <a href="#"><video id="video" loop src="img/video_boda.mp4" alt=""> </video></a>
-            <p class="sub">aca debe ir una breve descripcion del evento que se hizo</p>
-        </div>
-
         <div class="container-evento container-der">
-            <a href="#"><video src="img/bodas.webp" alt=""></a>
+            <a href="#"><video src="/static/img/bodas.webp" alt=""></a>
         </div>
 
         <div class="container-evento container-izq">
-            <a href="#"><video src="img/bodas.webp" alt=""></a>
+            <a href="#"><video src="/static/img/bodas.webp" alt=""></a>
         </div>
 
         <div class="container-evento container-der">
-            <a href="#"><img src="img/   .webp" alt=""></a>
+            <a href="#"><img src="/static/img/   .webp" alt=""></a>
         </div>
     </div>
 
