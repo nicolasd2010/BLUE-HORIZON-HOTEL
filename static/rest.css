@@ -64,3 +64,8 @@ margin-top: -10px;
 img {
     width: 500px;
 }
+footer {
+    background-color: #c0c0c0;
+    padding: 10px;
+    text-align: center;
+}
