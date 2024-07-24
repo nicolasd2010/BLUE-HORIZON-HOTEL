@@ -27,7 +27,7 @@ def semi():
 
 @app.route('/reserva_lujo')
 def reserva_lujo():
-    return render_template('reserva-lujo.html')
+    return render_template('reserva_lujo.html')
 
 
 

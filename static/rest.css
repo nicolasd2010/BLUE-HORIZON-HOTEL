@@ -12,8 +12,23 @@
     display: flex ;
     justify-content: center;
     margin: 10px;
-   
 }
+
+
+.todoo button a{
+    color: white;
+}
+.block button a{
+    color: white;
+}
+.dentro button a {
+    color: white;
+}
+.text button a {
+    color: white;
+}
+
+
 
 
 header a{
@@ -65,7 +80,7 @@ img {
     width: 500px;
 }
 footer {
-    background-color: #c0c0c0;
+    background-color: #72728f;
     padding: 10px;
     text-align: center;
 }
