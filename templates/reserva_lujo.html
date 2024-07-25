@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Habitacion Lujosa</title>
+    <link rel="stylesheet" href="/static/reserva-lujo.css">
+
+</head>
+
+<body>
+
+<div class="form-container">
+<form id="reservation-form">
+<div id="personal-info" class="step">
+<h2>Datos Personales</h2>
+<label for="rut">RUT:</label>
+<input type="text" id="rut" name="rut" required>
+
+<label for="nombres">Nombres:</label>
+<input type="text" id="nombres" name="nombres" required>
+
+<!-- Otros campos personales -->
+
+<button type="button" onclick="nextStep()">Siguiente</button>
+</div>
+
+<div id="reservation-details" class="step">
+<h2>Detalles de la Reserva</h2>
+<label for="check-in">Fecha de Entrada:</label>
+<input type="date" id="check-in" name="check-in" required>
+
+<label for="check-out">Fecha de Salida:</label>
+<input type="date" id="check-out" name="check-out" required>
+
+<!-- Otros detalles de la reserva -->
+
+<button type="submit">Confirmar Reserva</button>
+</div>
+</form>
+</div>
+
+<!--JavaScript-->
+
+<script>
+function nextStep() {
+document.getElementById("personal-info").style.display = "none";
+document.getElementById("reservation-details").style.display = "block";
+}
+
+document.getElementById("reservation-form").addEventListener("submit", function(event) {
+event.preventDefault();
+const nombre = document.getElementById("nombres").value;
+alert("¡Gracias por tu reserva, " + nombre + "! La reserva ha sido confirmada.");
+});
+
+</script>
+
+</body>
+</html>
+
+

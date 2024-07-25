@@ -107,6 +107,15 @@ body {
     margin-right: 20%;
     justify-content: flex-start ;
     
+}
 
+footer {
+    background-color: #72728f;
+    padding: 10px;
+    text-align: center;
+}
 
+.foot h3 {
+    font-size: 15px;
+    color: #333;
 }

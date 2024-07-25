@@ -25,6 +25,14 @@ def restaurant():
 def semi():
     return render_template('semi.html')
 
+@app.route('/reserva_lujo')
+def reserva_lujo():
+    return render_template('reserva_lujo.html')
+
+
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
