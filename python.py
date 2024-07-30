@@ -15,6 +15,7 @@ def eventos():
 
 @app.route('/lujo')
 def lujo():
+    
     return render_template('lujo.html')
 
 @app.route('/restaurant')
